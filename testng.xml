@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  <groups>
+    <run>
+      <include name="smoke"/>  <!-- <exclude name="smoke"/> will exclude all tests with group "smoke" -->
+    </run>
+  </groups>
+    <classes>                                     <!-- or we can use <packages> <package name="testng"/> </packages> -->
+      <class name="testng.Annotations2" />
+      <class name="testng.Annotations" />
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+

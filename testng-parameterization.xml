@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<!--  <parameter name="browser" value="edge"/>    -->
+<parameter name="username" value="garima"/>
+<parameter name="password" value="garima@123"/>
+  <test name="Test">
+<!--  <parameter name="browser" value="opera"/>    -->
+    <classes>
+      <class name="testng.TestngParameterization" />
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
